@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.2 on win32)" generated="20230823 01:14:47.125" rpa="false" schemaversion="4">
+<suite id="s1" name="Flipkart" source="C:\Users\HP\PycharmProjects\Robot_framework\flipkart.robot">
+<test id="s1-t1" name="MouseActionTest" line="4">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://swisnl.github.io/jQuery-contextMenu/demo.html</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230823 01:14:47.642" level="INFO">Opening browser 'chrome' to base url 'https://swisnl.github.io/jQuery-contextMenu/demo.html'.</msg>
+<msg timestamp="20230823 01:14:52.571" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230823 01:14:52.571" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0039A813+48355]
+	(No symbol) [0x0032C4B1]
+	(No symbol) [0x00235358]
+	(No symbol) [0x002561AC]
+	(No symbol) [0x00251EF3]
+	(No symbol) [0x00250579]
+	(No symbol) [0x00280C55]
+	(No symbol) [0x0028093C]
+	(No symbol) [0x0027A536]
+	(No symbol) [0x002582DC]
+	(No symbol) [0x002593DD]
+	GetHandleVerifier [0x005FAABD+2539405]
+	GetHandleVerifier [0x0063A78F+2800735]
+	GetHandleVerifier [0x0063456C+2775612]
+	GetHandleVerifier [0x004251E0+616112]
+	(No symbol) [0x00335F8C]
+	(No symbol) [0x00332328]
+	(No symbol) [0x0033240B]
+	(No symbol) [0x00324FF7]
+	BaseThreadInitThunk [0x75F400C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77BA7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77BA7AEE+238]
+</msg>
+<status status="FAIL" starttime="20230823 01:14:47.641" endtime="20230823 01:14:52.665"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20230823 01:14:52.666" endtime="20230823 01:14:52.666"/>
+</kw>
+<kw name="Open Context Menu" library="SeleniumLibrary">
+<arg>//span[text()='right click me']</arg>
+<doc>Opens the context menu on the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230823 01:14:52.667" endtime="20230823 01:14:52.667"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230823 01:14:52.668" endtime="20230823 01:14:52.668"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://testautomationpractice.blogspot.com/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" starttime="20230823 01:14:52.669" endtime="20230823 01:14:52.669"/>
+</kw>
+<kw name="Double Click Element" library="SeleniumLibrary">
+<arg>//div[@id='HTML10']/div[1]/button</arg>
+<doc>Double clicks the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230823 01:14:52.669" endtime="20230823 01:14:52.669"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230823 01:14:52.670" endtime="20230823 01:14:52.670"/>
+</kw>
+<kw name="Drag And Drop" library="SeleniumLibrary">
+<arg>xpath://div[@id='draggable']</arg>
+<arg>xpath://div[@id='droppable']</arg>
+<doc>Drags the element identified by ``locator`` into the ``target`` element.</doc>
+<status status="NOT RUN" starttime="20230823 01:14:52.671" endtime="20230823 01:14:52.671"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230823 01:14:52.671" endtime="20230823 01:14:52.671"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20230823 01:14:52.672" endtime="20230823 01:14:52.672"/>
+</kw>
+<status status="FAIL" starttime="20230823 01:14:47.640" endtime="20230823 01:14:52.672">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0039A813+48355]
+	(No symbol) [0x0032C4B1]
+	(No symbol) [0x00235358]
+	(No symbol) [0x002561AC]
+	(No symbol) [0x00251EF3]
+	(No symbol) [0x00250579]
+	(No symbol) [0x00280C55]
+	(No symbol) [0x0028093C]
+	(No symbol) [0x0027A536]
+	(No symbol) [0x002582DC]
+	(No symbol) [0x002593DD]
+	GetHandleVerifier [0x005FAABD+2539405]
+	GetHandleVerifier [0x0063A78F+2800735]
+	GetHandleVerifier [0x0063456C+2775612]
+	GetHandleVerifier [0x004251E0+616112]
+	(No symbol) [0x00335F8C]
+	(No symbol) [0x00332328]
+	(No symbol) [0x0033240B]
+	(No symbol) [0x00324FF7]
+	BaseThreadInitThunk [0x75F400C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77BA7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77BA7AEE+238]
+</status>
+</test>
+<status status="FAIL" starttime="20230823 01:14:47.128" endtime="20230823 01:14:52.676"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Flipkart">Flipkart</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

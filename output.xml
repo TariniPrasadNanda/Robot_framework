@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.2 on win32)" generated="20230823 09:23:58.366" rpa="false" schemaversion="4">
+<suite id="s1" name="Flipkart" source="C:\Users\HP\PycharmProjects\Robot_framework\flipkart.robot">
+<test id="s1-t1" name="MouseActionTest" line="4">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://swisnl.github.io/jQuery-contextMenu/demo.html</arg>
+<arg>edge</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230823 09:23:58.753" level="INFO">Opening browser 'edge' to base url 'https://swisnl.github.io/jQuery-contextMenu/demo.html'.</msg>
+<msg timestamp="20230823 09:24:20.859" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230823 09:24:20.860" level="FAIL">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7615CB292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF76155C902+737698]
+	(No symbol) [0x00007FF76133B86E]
+	(No symbol) [0x00007FF761333EA9]
+	(No symbol) [0x00007FF76132531D]
+	(No symbol) [0x00007FF7613268B5]
+	(No symbol) [0x00007FF76132555A]
+	(No symbol) [0x00007FF7613245EF]
+	(No symbol) [0x00007FF7613244F4]
+	(No symbol) [0x00007FF76132281A]
+	(No symbol) [0x00007FF761323533]
+	(No symbol) [0x00007FF76133D829]
+	(No symbol) [0x00007FF7613BD9D1]
+	(No symbol) [0x00007FF7613A382A]
+	(No symbol) [0x00007FF761376F61]
+	(No symbol) [0x00007FF7613BCD41]
+	(No symbol) [0x00007FF7613A3603]
+	(No symbol) [0x00007FF761375DEA]
+	(No symbol) [0x00007FF7613750CB]
+	(No symbol) [0x00007FF761376574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF761798739+1225433]
+	(No symbol) [0x00007FF7613F4804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7614B0151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7614A8D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF761797314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7615658C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF761561894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7615619C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF761555D41+710113]
+	BaseThreadInitThunk [0x00007FFC5B207614+20]
+	RtlUserThreadStart [0x00007FFC5BEC26B1+33]
+</msg>
+<status status="FAIL" starttime="20230823 09:23:58.752" endtime="20230823 09:24:20.865"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20230823 09:24:20.866" endtime="20230823 09:24:20.866"/>
+</kw>
+<kw name="Open Context Menu" library="SeleniumLibrary">
+<arg>//span[text()='right click me']</arg>
+<doc>Opens the context menu on the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230823 09:24:20.866" endtime="20230823 09:24:20.866"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230823 09:24:20.867" endtime="20230823 09:24:20.867"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://testautomationpractice.blogspot.com/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" starttime="20230823 09:24:20.867" endtime="20230823 09:24:20.867"/>
+</kw>
+<kw name="Double Click Element" library="SeleniumLibrary">
+<arg>//div[@id='HTML10']/div[1]/button</arg>
+<doc>Double clicks the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230823 09:24:20.868" endtime="20230823 09:24:20.868"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230823 09:24:20.868" endtime="20230823 09:24:20.868"/>
+</kw>
+<kw name="Drag And Drop" library="SeleniumLibrary">
+<arg>xpath://div[@id='draggable']</arg>
+<arg>xpath://div[@id='droppable']</arg>
+<doc>Drags the element identified by ``locator`` into the ``target`` element.</doc>
+<status status="NOT RUN" starttime="20230823 09:24:20.869" endtime="20230823 09:24:20.869"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230823 09:24:20.869" endtime="20230823 09:24:20.869"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20230823 09:24:20.870" endtime="20230823 09:24:20.870"/>
+</kw>
+<status status="FAIL" starttime="20230823 09:23:58.751" endtime="20230823 09:24:20.871">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7615CB292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF76155C902+737698]
+	(No symbol) [0x00007FF76133B86E]
+	(No symbol) [0x00007FF761333EA9]
+	(No symbol) [0x00007FF76132531D]
+	(No symbol) [0x00007FF7613268B5]
+	(No symbol) [0x00007FF76132555A]
+	(No symbol) [0x00007FF7613245EF]
+	(No symbol) [0x00007FF7613244F4]
+	(No symbol) [0x00007FF76132281A]
+	(No symbol) [0x00007FF761323533]
+	(No symbol) [0x00007FF76133D829]
+	(No symbol) [0x00007FF7613BD9D1]
+	(No symbol) [0x00007FF7613A382A]
+	(No symbol) [0x00007FF761376F61]
+	(No symbol) [0x00007FF7613BCD41]
+    [ Message content over the limit has been removed. ]
+	(No symbol) [0x00007FF761376574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF761798739+1225433]
+	(No symbol) [0x00007FF7613F4804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7614B0151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7614A8D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF761797314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7615658C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF761561894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7615619C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF761555D41+710113]
+	BaseThreadInitThunk [0x00007FFC5B207614+20]
+	RtlUserThreadStart [0x00007FFC5BEC26B1+33]</status>
+</test>
+<status status="FAIL" starttime="20230823 09:23:58.370" endtime="20230823 09:24:20.876"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Flipkart">Flipkart</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
